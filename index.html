@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container text-center">
+            <h2 class="display-4"><b>Hello, I'm Muhammad Tayyab</b></h2>
+            <p class="lead"><b>A passionate Web Development</b></p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/image.jpg" alt="Your Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <p>I'm a dedicated and passionate Web Development with experience in Html5, Css, Bootstrap JavaScript and React js. I love creating and working on projects that make a difference. I can create very good responsive websites</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section bg-light">
+        <div class="container">
+            <h2 class="text-center">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-box text-center">
+                        <i class="fas fa-code fa-3x"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript, Bootstrap, React</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-box text-center">
+                        <i class="fas fa-paint-brush fa-3x"></i>
+                        <h3>Design</h3>
+                        <p>UI/UX, Photoshop, Illustrator</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-box text-center">
+                        <i class="fas fa-database fa-3x"></i>
+                        <h3>Database Management</h3>
+                        <p>MySQL, MongoDB, PostgreSQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="text-center">My Projects</h2>
+            <div class="row">
+                <div class="pro">
+                    <div class="project-box">
+                        <img src="image/Capture.PNG" alt="Project 1" class="img-fluid">
+                        <h3>Ecomerce website</h3>
+                        <p>Short description of Project 1.</p>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="project-box">
+                        <img src="image/Capture1.PNG" alt="Project 2" class="img-fluid">
+                        <h3>Portfolio</h3>
+                        <p>Short description of Project 2.</p>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="project-box">
+                        <img src="image/Capture2.PNG" alt="Project 3" class="img-fluid">
+                        <h3>Business website</h3>
+                        <p>Short description of Project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-light">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
